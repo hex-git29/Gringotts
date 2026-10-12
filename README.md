@@ -23,7 +23,7 @@ Gringotts is a Telegram bot for tracking personal expenses, splitting bills, sca
 3. Install the packages used by the bot:
 
    ```bash
-   python -m pip install "python-telegram-bot[job-queue]" google-genai python-dotenv
+   pip install -r requirements.txt
    ```
 
 4. Create a `.env` file in the project directory:
